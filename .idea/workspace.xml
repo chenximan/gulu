@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d8d039-fc7b-4c38-b8d3-64d59cb5f5b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="210">
               <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
             </state>
           </provider>
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/button-group.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="275">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -115,25 +113,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="gulu-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulu-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gulu-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulu-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -172,7 +152,7 @@
       <workItem from="1561726290417" duration="6272000" />
       <workItem from="1561733165648" duration="1360000" />
       <workItem from="1561784840618" duration="2993000" />
-      <workItem from="1561797673285" duration="1602000" />
+      <workItem from="1561797673285" duration="2544000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1561703410880</created>
@@ -244,11 +224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561786520434</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="创建 button group">
+      <created>1561799533764</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561799533764</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24779000" />
+    <option name="totallyTimeSpent" value="25721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="820" y="5" width="566" height="728" extended-state="0" />
@@ -289,7 +276,8 @@
     <MESSAGE value="更新 button 里面 icon 的样式" />
     <MESSAGE value="添加菊花状态" />
     <MESSAGE value="添加 click 事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 click 事件" />
+    <MESSAGE value="创建 button group" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 button group" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -334,13 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icon.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -348,10 +329,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/button-group.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="275">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
         </state>
       </provider>
     </entry>
