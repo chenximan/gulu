@@ -14,23 +14,23 @@ import Toast from './toast'
 import plugin from './plugin'
 
 
-Vue.component('g-button',Button)
-Vue.component('g-icon',Icon)
-Vue.component('g-button-group', ButtonGroup)
-Vue.component('g-input', Input)
-Vue.component('g-row', Row)
-Vue.component('g-col', Col)
-Vue.component('g-layout', Layout)
-Vue.component('g-header', Header)
-Vue.component('g-sider', Sider)
-Vue.component('g-content', Content)
-Vue.component('g-footer', Footer)
-Vue.component('g-toast', Toast)
-Vue.use(plugin)
+Vue.component('g-button',Button);
+Vue.component('g-icon',Icon);
+Vue.component('g-button-group', ButtonGroup);
+Vue.component('g-input', Input);
+Vue.component('g-row', Row);
+Vue.component('g-col', Col);
+Vue.component('g-layout', Layout);
+Vue.component('g-header', Header);
+Vue.component('g-sider', Sider);
+Vue.component('g-content', Content);
+Vue.component('g-footer', Footer);
+Vue.component('g-toast', Toast);
+Vue.use(plugin);
 
 import createElement from 'Vue'
 
-const h = createElement
+const h = createElement;
 
 new Vue({
     el: '#app',
@@ -41,22 +41,22 @@ new Vue({
         message: 'hi'
     },
     created(){
-        this.$toast('你的智商需要充值!', {
-            position: 'middle',
-            enableHtml: false,
-            closeButton: {
-                text: '已充值',
-                callback() {
-                    console.log('他说已经充值了')
-                }
-            },
-            autoClose: false,
-            autoCloseDelay: 3
-        })
     },
     methods: {
        showToast(){
+           this.$toast(`你的智商目前为 ${parseInt(Math.random() * 100)}。你的智商需要充值!`, {
+               position: 'middle',
+               enableHtml: false,
+               closeButton: {
+                   text: '已充值',
+                   callback() {
+                       console.log('他说已经充值了')
+                   }
+               },
+               autoClose: false,
+               autoCloseDelay: 3
+           })
        }
     }
-})
+});
 
