@@ -45,7 +45,7 @@
        created(){
        },
        mounted(){
-           this.updateStyles()
+           this.updateStyles();
            this.execAutoClose()
        },
        computed:{
@@ -70,14 +70,15 @@
                }
            },
            close(){
-               this.$el.remove()
+               this.$el.remove();
+               this.$emit('close');
                this.$destroy()
            },
            log () {
                console.log('测试')
            },
            onClickClose(){
-               this.close()
+               this.close();
                if (this.closeButton && typeof this.closeButton.callback === 'function') {
                    this.closeButton.callback(this)
                }
@@ -89,7 +90,13 @@
     $font-size: 14px;
     $toast-min-height: 40px;
     $toast-bg: rgba(0,0,0,0.75);
-    .toast{font-size: $font-size;min-height: $toast-min-height;line-height: 1.8;position: fixed;display: flex; color: white;align-items: center;
+    @keyframes fade-in {
+        0% {opacity: 0; transform: translateY(100%);}
+        100% {opacity: 1;transform: translateY(0%);}
+    }
+    .toast{
+        animation: fade-in 1s;
+        font-size: $font-size;min-height: $toast-min-height;line-height: 1.8;position: fixed;display: flex; color: white;align-items: center;
     background: $toast-bg;border-radius: 4px;box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);padding: 0 16px;
         left: 50%;
         .message {
