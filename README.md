@@ -2,9 +2,9 @@ GULU这是一个UI组件
 
 [![Build Status](https://travis-ci.org/chenximan/gulu.svg?branch=master)](https://travis-ci.org/chenximan/gulu)
 
-##介绍
+介绍
 这是我在学习Vue过程中做的一个UI组件，希望对你有用。
-##开始使用
+开始使用
 1.添加CSS样式
 
    使用本框架前，请在CSS中开启border-box
