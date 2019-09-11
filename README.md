@@ -3,7 +3,7 @@ GULU这是一个UI组件
 [![Build Status](https://travis-ci.org/chenximan/gulu.svg?branch=master)](https://travis-ci.org/chenximan/gulu)
 
 介绍
-这是我在学习Vue过程中做的一个UI组件，希望对你有用。
+这是Vue过程中做的一个UI组件，希望对你有用。
 开始使用
 1.添加CSS样式
 
@@ -46,15 +46,15 @@ GULU这是一个UI组件
     }
     ```
  
-##文档
+文档
 
-##提问
+提问
 
-##变更记录
+变更记录
 
-##联系方式
+联系方式
 
-##贡献代码
+贡献代码
 
 
 
